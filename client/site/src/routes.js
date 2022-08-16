@@ -5,6 +5,7 @@ import Contador from "./pages/contador";
 import Cards from "./pages/cards";
 import Show from "./pages/show";
 import Media from "./pages/media";
+import Renderizacao from "./pages/renderizacao";
 
 const Index = () => {
 	return (
@@ -15,6 +16,7 @@ const Index = () => {
 				<Route path="/cards" exact element={<Cards />} />
 				<Route path="/mostrarescrito" exact element={<Show />} />
 				<Route path="/media" exact element={<Media />} />
+				<Route path="/renderizacao" exact element={<Renderizacao />} />
 			</Routes>
 		</BrowserRouter>
 	);

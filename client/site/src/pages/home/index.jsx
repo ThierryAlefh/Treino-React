@@ -15,6 +15,9 @@ const Index = () => {
 				<li>
 					<Link to="/mostrarescrito"> Mostrar escrito</Link>
 				</li>
+				<li>
+					<Link to="/renderizacao">Renderização</Link>
+				</li>
 			</ul>
 		</div>
 	);
