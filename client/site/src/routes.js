@@ -6,6 +6,8 @@ import Cards from "./pages/cards";
 import Show from "./pages/show";
 import Media from "./pages/media";
 import Renderizacao from "./pages/renderizacao";
+import Tarefas from "./pages/tarefas";
+import TarefasObj from "./pages/tarefasObjeto";
 
 const Index = () => {
 	return (
@@ -17,6 +19,8 @@ const Index = () => {
 				<Route path="/mostrarescrito" exact element={<Show />} />
 				<Route path="/media" exact element={<Media />} />
 				<Route path="/renderizacao" exact element={<Renderizacao />} />
+				<Route path="/tarefas" exact element={<Tarefas />} />
+				<Route path="/tarefas/obj" exact element={<TarefasObj />} />
 			</Routes>
 		</BrowserRouter>
 	);

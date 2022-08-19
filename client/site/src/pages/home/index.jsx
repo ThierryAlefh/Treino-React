@@ -18,6 +18,12 @@ const Index = () => {
 				<li>
 					<Link to="/renderizacao">Renderização</Link>
 				</li>
+				<li>
+					<Link to="/tarefas">Lista de Tarefas</Link>
+				</li>
+				<li>
+					<Link to="/tarefas/obj">Lista de Tarefas (objeto)</Link>
+				</li>
 			</ul>
 		</div>
 	);
